@@ -35,12 +35,12 @@ header .header-content {
   font-weight: 400;
   line-height: 26px;
 }
-.header-btn{
+.header-btn {
   margin-right: 150px;
   text-align: right;
   margin-top: 30px;
   border-radius: 5px;
-  background: #F15B22;
+  background: #f15b22;
   border: none;
   padding: 20px 30px;
   color: white;
@@ -48,3 +48,42 @@ header .header-content {
   font-size: 20px;
 }
 /* end header design */
+/* failure section design */
+.image-size{
+  width: 451px;
+height: 698px;
+margin-right: 40px;
+margin-left: 70px;
+text-align: center;
+}
+.failure-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.failure-title {
+  width: 288px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.failure-description{
+  color:  #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-right:200px;
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
+.list-item li{
+list-style: none;
+color: #444343;
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 26px;
+}
+
